@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__links-info">
+                <nav class="header__nav">
+                    <ul class="header__item">
+                        <a href="../index.html" class="header__link"><li>Главная</li></a>
+                        <a href="../about/index3.html" class="header__link"><li class="header__link">О компании</li></a>
+                        <a href="../contacts/index.html" class="header__link"><li class="header__link">Контакты</li></a>
+                        <a href="../attractions/index2.html" class="header__link"><li class="header__link">Достопримечательности</li></a>
+                        <a href="../news/index.html" class="header__link"><li class="header__link">Новости</li></a>
+                    </ul>
+                </nav>
+                <div class="header__info">
+                    <p class="header__mail">info@localguide.ru</p>
+                    <div class="header__city">
+                        <img src="./assets/img/Map_Pin.png" alt="">
+                        <p class="header__moscow">Москва</p>
+                    </div>
+                </div>
+            </div>
+            <div class="header__btns-search">
+                <div class="header__logo">
+                    <img src="./assets/img/logo.png" alt="logo">
+                </div>
+                <button class="header__btn">
+                    Cвязаться с нами
+                </button>
+                <form action="" class="header__form">
+                    <input class="header__input" type="text" placeholder="Поиск достопримечательности">
+                    <button class="header__btn">Найти</button>
+                </form>
+            </div>
+        </header>
+        <section class="section">
+            <div class="section__block1">
+                <h1 class="section__block1__title">
+                    Наши Контакты
+                </h1>
+                <p class="section__block1__undertitle">
+                    Свяжитесь с нами, чтобы получить ответы на все ваши вопросы.
+                </p>
+                <button class="section__block1__btn">
+                    Связаться с нами
+                </button>
+            </div>
+            <div class="section__block2">
+                <h1 class="section__block2__title">Контактная Информация</h1>
+                <p class="section__block2__text"><span class="clickable-text" onclick="addNewElement()"><img src="./assets/img/img-js.png" alt="" class="">Телефон</span></p>
+                <div id="newElementsContainer"></div>
+            </div>
+            <div class="section__block3">
+                <h1 class="section__block3__title">Телефон</h1>
+                <div class="section__block3__box">
+                    <img src="./assets/img/phone.png" alt="phone">
+                    <p class="section__block3__text">Позвоните нам</p>
+                    <p class="section__block3__number">8 (800) 555-12-34</p>
+                </div>
+            </div>
+            <div class="section__block3">
+                <div class="section__block3__box">
+                    <img src="./assets/img/clock.png" alt="phone">
+                    <p class="section__block3__text">График работы</p>
+                    <p class="section__block3__number">Пн-Пт: 9:00 - 18:00</p>
+                </div>
+            </div>
+            <div class="section__block3">
+                <div class="section__block3__box">
+                    <img src="./assets/img/info.png" alt="phone">
+                    <p class="section__block3__text">Служба поддержки</p>
+                    <p class="section__block3__number">Круглосуточно</p>
+                </div>
+            </div>
+        </section>
+        <section class="section2">
+            <div class="section2__block1">
+                <h1 class="section2__block1__title">
+                    Email
+                </h1>
+                    <div class="section2__block1__flex">
+                        <div>
+                        <p class="section2__block1__text">
+                            Общие вопросы
+                        </p>                
+                        <p class="section2__block1__bottom-text">
+                            info@example.com
+                        </p>
+                        </div>
+                    <div>
+                        <p class="section2__block1__text">
+                            Отдел продаж
+                        </p>
+                        <p class="section2__block1__bottom-text">
+                            sales@example.com
+                        </p>
+                    </div>
+                    <div>
+                        <p class="section2__block1__text">
+                            Отдел поддержки
+                        </p>
+                        <p class="section2__block1__bottom-text">
+                            support@example.com
+                        </p>
+                    </div>  
+                    </div>
+                </div>
+            
+        </section>
+        <section class="feedback">
+            <h1 class="feedback__title">
+                Связаться с Нами
+            </h1>
+            <div class="feedback__flex">
+                <div class="feedback__box1">
+                    <h3 class="feedback__title2">
+                        Форма обратной связи
+                    </h3>
+                    <p class="feedback__text">
+                        Заполните форму ниже, чтобы мы могли помочь вам с вашими вопросами.
+                    </p>
+                </div>
+                <div class="feedback__box1">
+                    <h3 class="feedback__title2">
+                        Онлайн-чат
+                    </h3>
+                    <p class="feedback__text">
+                        Воспользуйтесь нашим онлайн-чатом для мгновенной связи с нашей службой поддержки.
+                    </p>
+                </div>
+                <div class="feedback__box1">
+                    <h3 class="feedback__title2">
+                        Телефон
+                    </h3>
+                    <p class="feedback__text">
+                        Позвоните нам по номеру 8 (800) 555-12-34 и получите консультацию специалиста.
+                    </p>
+                </div>
+            </div>
+            <button class="feedback__btn">
+                Связаться с нами
+            </button>
+        </section>
+        <footer class="footer">
+            <div class="footer__flex">
+                <div class="footer__flex-block1">
+                    <h5 class="footer__flex-title">
+                        Контакты
+                    </h5>
+                    <div class="footer__flex-number">
+                        <img src="./assets/img/phone.png" alt="phone">
+                        <a href="#" class="footer__flex-num_link">
+                            +7 (953) 070-88-28
+                        </a>
+                    </div>
+                    <div class="footer__flex-number">
+                        <img src="./assets/img/phone.png" alt="phone">
+                        <a href="#" class="footer__flex-num_link">
+                            +7 (953) 070-88-28
+                        </a>
+                    </div>
+                    <div class="footer__flex-number">
+                        <img src="./assets/img/letter.png" alt="letter">
+                        <a href="#" class="footer__flex-num_link">
+                            info_example@gmail.ru
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__flex-block2">
+                    <h5 class="footer__flex-title">
+                        Информация
+                    </h5>
+                    <div class="footer__flex-number">
+                        <a href="#" class="footer__flex-num_link">
+                            О компании
+                        </a>
+                    </div>
+                    <div class="footer__flex-number">                      
+                        <a href="#" class="footer__flex-num_link">
+                            Новости
+                        </a>
+                    </div>
+                    <div class="footer__flex-number">
+                        <a href="#" class="footer__flex-num_link">
+                            Достопремичательности
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__flex-block1">
+                    <h5 class="footer__flex-title">
+                        Социальные сети
+                    </h5>
+                    <div class="footer__flex-number">
+                        <img src="./assets/img/tg.png" alt="phone">
+                        <a href="#" class="footer__flex-num_link">
+                            Telegram
+                        </a>
+                    </div>
+                    <div class="footer__flex-number">
+                        <img src="./assets/img/inst.png" alt="phone">
+                        <a href="#" class="footer__flex-num_link">
+                            Instagram
+                        </a>
+                    </div>
+                    <div class="footer__flex-number">
+                        <img src="./assets/img/facebook.png" alt="letter">
+                        <a href="#" class="footer__flex-num_link">
+                            Facebook
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__flex-block2">
+                    <h5 class="footer__flex-title">
+                        Города
+                    </h5>
+                    <div class="footer__flex-number">
+                        <a href="#" class="footer__flex-num_link">
+                            Москва
+                        </a>
+                    </div>
+                    <div class="footer__flex-number">
+                        <a href="#" class="footer__flex-num_link">
+                            Санкт-Петербург
+                        </a>
+                    </div>
+                    <div class="footer__flex-number">                      
+                        <a href="#" class="footer__flex-num_link">
+                            Казань
+                        </a>
+                    </div>
+                    <div class="footer__flex-number">
+                        <a href="#" class="footer__flex-num_link">
+                            Краснодар
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </div>
+            <div class="footer__under">
+                <hr>
+                <p class="footer__text">Local Guide © 2024</p>
+            </div>
+        </footer>
+        <script>
+            function addNewElement() {
+                // Создаем новый элемент
+                const newElement = document.createElement('div');
+                newElement.className = 'new-element';
+                newElement.textContent = '8 (800) 555-12-34';
+    
+                // Добавляем новый элемент в контейнер
+                const container = document.getElementById('newElementsContainer');
+                container.appendChild(newElement);
+            }
+        </script>
+</body>
+</html>
